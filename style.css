@@ -1,0 +1,128 @@
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    margin: 0% auto;
+}
+/* tete de page*/
+header.header1 {
+    display: flex;
+    align-items: center;
+}
+header.header img {
+    width: 350px;
+}
+.plaisir{
+position: relative;
+color: gainsboro;
+font-size: 50px;
+text-align: center;
+}
+.top-de-page {
+    background: url('https://www.gangaaction.org/wp-content/uploads/2013/04/flora-1-940x612.png');
+background-size: cover;
+    height: 100vh ;
+}
+/* menu de navigation*/ 
+.nav {
+    background-color: greenyellow;
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    width: 80%;
+    height: 45px;
+    margin-left: 100px;
+    margin-right: 20px;
+    margin-top: 0;
+    line-height: 40px;
+    border-radius:5px;
+}
+/* unvisited link */
+.list:link{
+    color: red;
+  }
+  /* visited link */
+  .list:visited {
+    color: goldenrod;
+  }
+  /* mouse over link */
+  .list:hover {
+    color: hotpink;
+  }
+  /* selected link */
+  .list:active {
+    color: blue;
+  }
+  .list{
+      padding-left: 20px;
+      padding-top: 20px;
+  }
+.nav li a{
+    color: white;
+}
+/*page bienvenue*/ 
+.big-title {
+    color: white;
+    font-size: 80px;
+    margin-left: 40px;
+    padding: 20px 50px;
+    font-weight: 300;
+}
+#contact1 {
+    position: relative;
+margin-left: 30px;
+}
+#meilleur-plante{
+    background-color: yellowgreen;
+}
+.pla{
+    display:inline-block;
+}
+.réseau{
+    margin-left: 50px;
+    text-decoration: none;
+}
+.adress {
+    text-align: center;
+}
+.pho{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.flex {
+    display: flex;
+}
+.aligne {
+    position: absolute;
+    margin-right: 200px;
+}
+.aligne2 {
+    position: absolute;
+    margin-left: 60%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 80px 200px auto 30px;
+    grid-gap: 10px;
+    background-color: #7CFC00;
+    padding: 10px;
+  }
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  .tabl{
+      position: absolute;
+     margin-right: 60%;
+     left: 50px;
+     top: 1000px;
+     padding: 20px 0;
+    font-size: 25px;
+  }
